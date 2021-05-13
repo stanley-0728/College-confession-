@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* * {
+  margin: auto;
+  padding: 0%;
+  box-sizing: border-box;
+} */
+body {
+  background-color: rgb(214, 220, 226);
+}
+.header-style {
+  display: flex;
+  justify-content: center;
+  background-color: #6c069c;
+}
+#menu {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+}
+/* #write {
+  background-color: whitesmoke;
+  font-size: 26px;
+  font-family: "Roboto Slab", serif;
+  border-radius: 5px;
+} */
+#write {
+  padding-right: 515px;
+  margin-top: 5px;
+}
+#writehere {
+}
+/* #write:hover {
+  background-color: rgb(169, 71, 207);
+  transition-duration: 0.4s;
+} */
+#writehere:hover {
+  background-color: #63078f;
+  color: white;
+  /* transition-duration: 0.4s; */
+}
+#showmore {
+  background-color: white;
+  color: #63078f;
+  border: 2px solid #63078f;
+}
+#showmore:hover {
+  background-color: #63078f;
+  color: white;
+}
+
+#search {
+  color: white;
+  background-color: #6c069c;
+  border: 1px solid white;
+  font-weight: 500;
+}
+#search:hover {
+  color: rgb(169, 71, 207);
+  background-color: white;
+}
+#sinput:active {
+  border: 1px solid white;
+}
+/* #searchform {
+  width: fit-content;
+  margin-right: 10px;
+} */
+/* #menu {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+.carousel-inner {
+  width: 100%;
+  height: 70%;
+}
+#card-style {
+  background-color: #63078f;
+}
+#card-style p {
+  color: white;
+}
+#card-style h5 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+#searchbutton {
+  border-color: white;
+  color: white;
+}
+#searchbutton:hover {
+  background-color: white;
+  color: #63078f;
+}
+#cardfooter {
+  display: inline-block;
+  text-align: right;
+}
+/* #example-collapse-text {
+
+} */
+
+/* .main {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-start;
+
+  width: 100%;
+} */
+#comment_input {
+  display: flex;
+  text-align: left;
+}
+/* .menu_active {
+  color: red;
+}
+.nav-link {
+  color: #fff;
+} */
+#menu:hover {
+  color: white;
+}
+
+.App {
+  height: 400px;
+}
+/* #ckeditor-style {
+  background-color: brown;
+  height: max-content;
+} */
+#title_bookmark {
+  display: flex;
+}
+#bookmark {
+  /* align-items: center; */
+  justify-content: right;
+}
+#savepost {
+  display: flex;
+}
+#bkbutton {
+  padding: 5px;
+  margin-bottom: 1px;
+  display: flex;
+  background-color: rgb(214, 220, 226);
+  border: 1px solid rgb(214, 220, 226);
+}
+/* #bookmark {
+  padding: 10;
+  margin-bottom: 1px;
+} */
+#write_anonymous {
+  background-color: #63078f;
+
+  color: white;
+  font-family: "Roboto Slab", serif;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+/* #publish_left {
+  margin-right: 62%;
+}
+#publish_right {
+  margin-left: 160%;
+} */
